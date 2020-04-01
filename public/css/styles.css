@@ -125,6 +125,11 @@ a {
 	padding: 5px;
 	height: 40px;
 	flex: 1;
+	border-radius: 10px;
+}
+
+.send {
+	margin-left: 20px;
 }
 
 /* Join Page */
@@ -183,6 +188,19 @@ a {
 .btn-container {
 	display: flex;
 	justify-content: center;
+}
+
+.btn-container .btn {
+	box-shadow: 2px 2px 5px #000;
+}
+
+.btn-container .btn:hover {
+	background-color: #fff;
+}
+
+.btn-container .btn:active {
+	background-color: #fff;
+	box-shadow: unset;
 }
 
 @media (max-width: 700px) {
