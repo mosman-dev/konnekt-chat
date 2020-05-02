@@ -243,3 +243,14 @@ a {
 		display: none;
 	}
 }
+
+@media (max-width: 450px) {
+	.chat-header a.btn {
+		width: 60px;
+		font-size: 0.6em;
+	}
+
+	h1 {
+		font-size: 1.4em;
+	}
+}
